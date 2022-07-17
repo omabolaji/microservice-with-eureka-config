@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/eureka-cloud-api-gateway/eureka-cloud-api-gateway.iml" filepath="$PROJECT_DIR$/eureka-cloud-api-gateway/eureka-cloud-api-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-cloud-config-server/eureka-cloud-config-server.iml" filepath="$PROJECT_DIR$/eureka-cloud-config-server/eureka-cloud-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-service-registry/eureka-service-registry.iml" filepath="$PROJECT_DIR$/eureka-service-registry/eureka-service-registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" filepath="$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/microservice-eureka-config.iml" filepath="$PROJECT_DIR$/.idea/microservice-eureka-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/payment/payment.iml" filepath="$PROJECT_DIR$/payment/payment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/subscription/subscription.iml" filepath="$PROJECT_DIR$/subscription/subscription.iml" />
+    </modules>
+  </component>
+</project>

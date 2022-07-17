@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-cloud-config-server" />
+        <module name="eureka-service-registry" />
+        <module name="eureka-cloud-api-gateway" />
+        <module name="hystrix-dashboard" />
+      </profile>
+      <profile name="Annotation profile for payment" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.4.2.Final/mapstruct-processor-1.4.2.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.4.2.Final/mapstruct-1.4.2.Final.jar" />
+        </processorPath>
+        <module name="payment" />
+        <module name="subscription" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka-cloud-api-gateway" target="11" />
+      <module name="eureka-cloud-config-server" target="11" />
+      <module name="eureka-service-registry" target="11" />
+      <module name="hystrix-dashboard" target="11" />
+      <module name="payment" target="11" />
+      <module name="subscription" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka-cloud-api-gateway" options="-parameters" />
+      <module name="eureka-cloud-config-server" options="-parameters" />
+      <module name="eureka-service-registry" options="-parameters" />
+      <module name="hystrix-dashboard" options="-parameters" />
+      <module name="payment" options="-parameters" />
+      <module name="subscription" options="-parameters" />
+    </option>
+  </component>
+</project>

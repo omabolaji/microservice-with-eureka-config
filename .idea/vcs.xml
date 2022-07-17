@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eureka-cloud-api-gateway" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eureka-cloud-config-server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eureka-service-registry" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/hystrix-dashboard" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/payment" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/subscription" vcs="Git" />
+  </component>
+</project>
